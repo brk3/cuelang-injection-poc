@@ -1,4 +1,6 @@
-package variables
+package main
 
-x: 1
-y: *"bye" | string @tag(y)
+_variables: {
+  x: 1
+  y: *2 | string @tag(y)
+}
